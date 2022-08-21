@@ -1,0 +1,15 @@
+pane	5	0	1	:*	0	:/home/ole	1	nvim	:nvim commands.md
+pane	configs	0	1	:*	0	:/home/ole	1	nvim	:nvim
+pane	configs	1	0	:-	0	:/home/ole/.config/nvim	1	nvim	:nvim init.vim
+pane	primeVision	0	0	:-	0	:/home/ole/primeVision/simulator-workspace	0	zsh	:
+pane	primeVision	0	0	:-	1	:/home/ole/primeVision/simulator-workspace/floorplan-factory/2_Experimental/practice	1	zsh	:
+pane	primeVision	2	1	:*	0	:/home/ole/primeVision/task-queue-configs/server	1	zsh	:
+pane	primeVision	2	1	:*	1	:/home/ole/prog_misc/python	0	nvim	:nvim json_test_serialize.json
+pane	primeVision	3	0	:	0	:/home/ole/primeVision/simulator-workspace	1	zsh	:
+window	5	0	:nvim	1	:*	5dc6,95x54,0,0,17	:
+window	configs	0	:nvim	1	:*	bb25,95x54,0,0,8	:
+window	configs	1	:nvim	0	:-	bb26,95x54,0,0,9	:
+window	primeVision	0	:python	0	:-	3823,95x54,0,0[95x26,0,0,10,95x27,0,27,11]	off
+window	primeVision	2	:[tmux]	1	:*	cbae,95x54,0,0[95x27,0,0,15,95x26,0,28,14]	:
+window	primeVision	3	:zsh	0	:	5dc5,95x54,0,0,16	:
+state	configs	primeVision

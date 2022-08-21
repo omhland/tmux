@@ -1,0 +1,20 @@
+pane	configs	0	1	:*	0	:/home/ole	1	zsh	:
+pane	configs	1	0	:-	0	:/home/ole/.local/share/nvim/plugged/vim-wordmotion/doc	1	nvim	:nvim -S
+pane	configs	2	0	:	0	:/home/ole	1	nvim	:nvim
+pane	prog	0	1	:*	0	:/home/ole/primeVision/simulator-workspace/workspace-scripts	1	nvim	:nvim json_test.py
+pane	prog	0	1	:*	1	:/home/ole/primeVision/simulator-workspace	0	zsh	:
+pane	questions	0	1	:*	0	:/home/ole/primeVision/notes	1	zsh	:
+pane	research	0	0	:	0	:/home/ole/primeVision/simulator-workspace/floorplan-factory/1_Proven/Anpost/configs	0	zsh	:
+pane	research	0	0	:	1	:/home/ole/primeVision/simulator-workspace/navigation/fixed-path-planner/cfg	0	zsh	:
+pane	research	0	0	:	2	:/home/ole/primeVision/task-queue-configs/server	1	nvim	:nvim ServerExample_w_fipp_instance_configs_devconf1.0.1beta3.json
+pane	research	2	0	:-	0	:/home/ole/primeVision/task-queue-configs/server	1	zsh	:
+pane	research	3	1	:*	0	:/home/ole/primeVision/simulator-workspace	1	zsh	:
+window	configs	0	:python	1	:*	bcfe,120x35,0,0,1	off
+window	configs	1	:nvim	0	:-	bcff,120x35,0,0,2	:
+window	configs	2	:nvim	0	:	bd00,120x35,0,0,3	:
+window	prog	0	:python3.8	1	:*	4db2,120x35,0,0{59x35,0,0,4,60x35,60,0,5}	off
+window	questions	0	:zsh	1	:*	bd03,120x35,0,0,6	:
+window	research	0	:python	0	:	8441,59x35,0,0{18x35,0,0,7,19x35,19,0,8,20x35,39,0,9}	off
+window	research	2	:zsh	0	:-	5e3f,59x35,0,0,10	:
+window	research	3	:zsh	1	:*	5e40,59x35,0,0,11	:
+state	configs	research

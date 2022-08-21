@@ -1,0 +1,27 @@
+pane	1	0	0	:-	0	:/home/ole/Documents/EI/plots	1	zsh	:
+pane	1	0	0	:-	1	:/home/ole/Documents/EI/plots	0	zsh	:
+pane	1	1	1	:*	0	:/home/ole	0	nvim	:nvim .tmux.conf
+pane	1	1	1	:*	1	:/home/ole	1	zsh	:
+pane	2	1	1	:*	0	:/home/ole/.config/ranger	0	zsh	:
+pane	2	1	1	:*	1	:/home/ole/primeVision/simulator-workspace	1	zsh	:
+pane	2	3	0	:-	0	:/home/ole/.config/ranger	1	zsh	:
+pane	3	0	1	:*	0	:/home/ole	1	nvim	:nvim
+pane	3	1	0	:-	0	:/home/ole/.config/nvim	1	nvim	:nvim
+pane	primeVision	0	0	:	0	:/home/ole/primeVision/simulator-workspace	0	zsh	:
+pane	primeVision	0	0	:	1	:/home/ole/primeVision/simulator-workspace/floorplan-factory/2_Experimental/practice	1	zsh	:
+pane	primeVision	1	1	:*	0	:/home/ole/prog_misc/python	1	nvim	:nvim json_test.py
+pane	primeVision	1	1	:*	1	:/home/ole/prog_misc/python	0	python3.9	:/usr/bin/python3.9 /home/ole/.local/bin/ipython
+pane	primeVision	2	0	:-	0	:/home/ole/prog_misc/python	1	nvim	:nvim json_test_serialize.json
+pane	primeVision	2	0	:-	1	:/home/ole/primeVision/task-queue-configs/server	0	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger --choosedir=/home/ole/.rangerdir
+pane	primeVision	3	0	:	0	:/home/ole/primeVision/simulator-workspace	1	zsh	:
+window	1	0	:plotting	0	:-	d077,192x54,0,0{96x54,0,0,1,95x54,97,0,2}	off
+window	1	1	:writing	1	:*	d080,192x54,0,0{96x54,0,0,3,95x54,97,0,4}	off
+window	2	1	:zsh	1	:*	d089,192x54,0,0{96x54,0,0,5,95x54,97,0,6}	off
+window	2	3	:python	0	:-	bfc4,192x54,0,0,7	off
+window	3	0	:nvim	1	:*	bb25,95x54,0,0,8	:
+window	3	1	:nvim	0	:-	5dc0,95x54,0,0,11	:
+window	primeVision	0	:python	0	:	0ca8,115x54,0,0[115x26,0,0,12,115x27,0,27,13]	off
+window	primeVision	1	:python3.8	1	:*	5b8f,115x54,0,0{57x54,0,0,14,57x54,58,0,18}	off
+window	primeVision	2	:nvim	0	:-	9e2c,115x54,0,0[115x27,0,0,15,115x26,0,28,16]	:
+window	primeVision	3	:zsh	0	:	5fd6,115x54,0,0,17	:
+state	primeVision	3

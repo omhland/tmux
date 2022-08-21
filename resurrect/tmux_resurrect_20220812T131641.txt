@@ -1,0 +1,20 @@
+pane	configs	0	0	:-	0	:/home/ole	1	nvim	:nvim
+pane	configs	1	1	:*	0	:/home/ole/.config/nvim	1	nvim	:nvim init.vim
+pane	configs	2	0	:	0	:/home/ole	1	nvim	:nvim
+pane	prog	0	1	:*	0	:/home/ole/primeVision/simulator-workspace/workspace-scripts	1	nvim	:nvim json_test.py
+pane	prog	0	1	:*	1	:/home/ole/primeVision/simulator-workspace	0	python	:python workspace-scripts/json_test.py
+pane	questions	0	1	:*	0	:/home/ole/primeVision/notes	1	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger --choosedir=/home/ole/.rangerdir
+pane	research	0	0	:	0	:/home/ole/primeVision/simulator-workspace/floorplan-factory/1_Proven/Anpost/configs	0	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger --choosedir=/home/ole/.rangerdir
+pane	research	0	0	:	1	:/home/ole/primeVision/simulator-workspace/navigation/fixed-path-planner/cfg	0	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger --choosedir=/home/ole/.rangerdir
+pane	research	0	0	:	2	:/home/ole/primeVision/task-queue-configs/server	1	nvim	:nvim ServerExample_w_fipp_instance_configs_devconf1.0.1beta3.json
+pane	research	2	1	:*	0	:/home/ole/primeVision/task-queue-configs/server	1	zsh	:
+pane	research	3	0	:-	0	:/home/ole/primeVision/simulator-workspace	1	zsh	:
+window	configs	0	:python	0	:-	b7be,192x52,0,0,1	off
+window	configs	1	:nvim	1	:*	b7bf,192x52,0,0,2	:
+window	configs	2	:nvim	0	:	b7c0,192x52,0,0,3	:
+window	prog	0	:python3.8	1	:*	b2a2,192x52,0,0{95x52,0,0,17,96x52,96,0,26}	off
+window	questions	0	:ranger	1	:*	5c17,192x52,0,0,18	:
+window	research	0	:python	0	:	49dd,192x52,0,0{63x52,0,0,4,63x52,64,0,10,64x52,128,0,15}	off
+window	research	2	:zsh	1	:*	b7c4,192x52,0,0,7	:
+window	research	3	:zsh	0	:-	b7c6,192x52,0,0,9	:
+state	configs	research

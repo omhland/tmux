@@ -1,0 +1,11 @@
+pane	0	0	1	:*	0	:/home/ole/Documents/writing	1	zsh	:
+pane	1	0	0	:-	0	:/home/ole/Documents/EI/plots	1	zsh	:
+pane	1	0	0	:-	1	:/home/ole/Documents/EI/plots	0	zsh	:
+pane	1	1	1	:*	0	:/home/ole/Documents/EI	1	zsh	:
+pane	2	1	1	:*	0	:/home/ole/.config/nvim	0	nvim	:nvim
+pane	2	1	1	:*	1	:/home/ole	1	nvim	:nvim
+window	0	0	:zsh	1	:*	bfbe,192x54,0,0,1	:
+window	1	0	:plotting	0	:-	507c,192x54,0,0{96x54,0,0,2,95x54,97,0,3}	off
+window	1	1	:writing	1	:*	bfc4,192x54,0,0,7	off
+window	2	1	:[tmux]	1	:*	a89c,192x54,0,0{96x54,0,0,6,95x54,97,0,11}	:
+state	2	1
